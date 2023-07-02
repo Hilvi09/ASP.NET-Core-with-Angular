@@ -7,6 +7,6 @@ namespace ASP.NET_Core_with_Angular.Models
         public int Id { get; set; }
         public String categoryName { get; set; }
         public virtual ICollection<Product> products { get; set; } = new HashSet <Product>();
-        public virtual ICollection<SubCategory> subcategories { get; set; } = new HashSet<SubCategory>;
+        public virtual ICollection<SubCategory> subcategories { get; set; } = new HashSet<SubCategory>();
     }
 }
